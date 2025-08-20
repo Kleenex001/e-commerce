@@ -1,0 +1,1207 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+ 
+}
+
+body{
+  font-family: "poppings", sans-serif;
+}
+
+
+.head{
+  width: 100%;
+  border: 1px solid rgb(0, 0, 80);
+  height: 30px;
+  font-size: 13px;
+  font-weight: bolder;
+  text-align: center;
+padding-top: 15px;
+background-color: rgb(3, 3, 117);
+color: white;
+}
+
+header{
+position: sticky;
+z-index: 1;
+top: 0;
+}
+
+
+
+.bombas {
+  position:relative;
+  border: 1px solid rgb(255, 255, 255);
+display: flex;
+align-items: center;
+width: 100%;
+height: 60px;
+z-index: 9;
+background-color: rgb(255, 255, 255);
+}
+.boms{
+  position: absolute;
+  margin-left: 5%;
+ font-weight: 900px;
+}
+
+.material-symbols-outlined{
+  position: absolute;
+  margin-left:  89%;
+}
+
+.login{
+  position: absolute;
+color: black;
+text-decoration: none;
+margin-left: 83%;
+font-size: 13px;
+font-weight: bold;
+}
+
+svg{
+  position: absolute;
+  color: black;
+  margin-left: 93%;
+}
+
+.women a{
+  position: absolute;
+  padding-left: 10px;
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  
+  justify-content: center;
+}
+
+.help{
+  position: absolute;
+  margin-left: 60%;
+  font-size: 13px;
+  font-weight: bolder;
+}
+
+.thankyou{
+  position: absolute;
+  margin-left: 52%;
+  font-size: 13px;
+  font-weight: bolder;
+}
+
+.kids{
+  position: absolute;
+  margin-left: 47%;
+  font-size: 13px;
+  font-weight: bolder;
+}
+
+.men{
+  position: absolute;
+  margin-left: 42%;
+  font-size: 13px;
+  font-weight: bolder;
+}
+
+.female{
+  position: absolute;
+  margin-left: 38%;
+  font-size: 13px;
+  font-weight: bolder;
+}
+
+.div1{
+  display: flex;
+}
+
+.image-container{
+  position: relative;
+  display: inline-block;
+
+}
+
+
+img{
+  display: block;
+  width: 280px;
+  height: 200px;
+  /* padding-left: 5px; */
+  margin-left: 20px;
+}
+.dives a{
+  position: absolute;
+  top: 45%;
+  left: 45%; 
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  /* text-align: center; */
+ font-weight: bolder;
+ font-size: large;
+}
+
+.dives a:hover{
+  text-decoration: underline;
+}
+
+.dives1 a{
+  position: absolute ;
+  top: 35%;
+  left:450px;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+ font-size: large;
+}
+
+.dives1 a:hover{
+  text-decoration: underline;
+}
+
+.dives2 a{
+  position: absolute ;
+  top: 35%;
+  left:650px;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+ font-size: large;
+}
+
+.dives2 a:hover{
+  text-decoration: underline;
+}
+
+.dives3 a{
+  position: absolute ;
+  top: 35%;
+  left:1050px;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+ font-size: large;
+}
+
+.dives3 a:hover{
+  text-decoration: underline;
+}
+
+.orange{
+  position: relative;
+  height: 450px;
+  /* width: 100%; */
+  background-color: rgb(224,123,4);
+  padding: 50px;
+}
+
+.new{
+  position: relative;
+  color: white;
+  text-align: center;
+  letter-spacing: 25px;
+  font-size: 40px;
+  font-weight: bolder;
+
+}
+
+.shop{
+padding-left: 400px;
+
+}
+
+.shop a{
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  margin-left: 10px;
+  border: 1px solid white;
+  background-color: white;
+
+}
+
+.shop a:hover{
+  background-color: rgb(247, 209, 216);
+  border-color: rgb(247, 209, 216);
+}
+
+.pink{border-style: ;
+  position: absolute;
+  height: 300px;
+  width: 65%;
+  background-color: rgb(241,209,183);
+  top: 250px;
+  right: 0;
+ 
+}
+
+.wine{
+  position: absolute;
+  height: 170px;
+  width: 55%;
+  background-color:rgb(172,47,30);
+  bottom: 0;
+  left: 0;
+ 
+}
+.screenshot{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 95px;
+  left: 5px;
+}
+
+
+.section1{
+  background-color: rgb(241, 240, 240);
+}
+
+
+.purchase{
+  text-align: center;
+}
+
+.donate{
+  text-align: center;
+margin-top: 10px;
+}
+
+.cozy{
+  display: flex;
+  position: relative;
+}
+.story{
+  width: 50%;
+  height: 50vh;
+}
+
+.hp{
+  width: 50%;
+  height: 50vh;
+}
+
+.movement{
+  position: absolute;
+  right: 890px;
+bottom: 80px;
+text-decoration: none;
+color: white;
+font-size: 30px;
+font-weight: bolder;
+}
+
+.movement:hover{
+  text-decoration: underline;
+}
+
+.season{
+  position: absolute;
+  right: 940px;
+bottom: 50px;
+text-decoration: none;
+color: white;
+font-size: 15px;
+font-weight: 200px;
+}
+
+.uniform{
+  position: absolute;
+  left: 650px;
+bottom: 80px;
+text-decoration: none;
+color: black;
+font-size: 30px;
+font-weight: bolder;
+}
+
+.uniform:hover{
+  text-decoration: underline;
+}
+
+.wear{
+  position: absolute;
+  left: 660px;
+bottom: 50px;
+text-decoration: none;
+color: black;
+font-size: 15px;
+font-weight: 200;
+}
+
+.section2{
+  position: relative;
+ 
+  display: flex;
+}
+
+.womens{
+  position: absolute;
+ 
+  top: 100px;
+  margin: 50px;
+  left: 10px;
+  font-size: 13px;
+  font-weight: bolder;
+}
+
+.arrivals{
+  position: absolute;
+  top: 140px;
+  left: 30px;
+  margin: 30px;
+  font-size: 25px;
+}
+
+.shopall{
+  top: 150px;
+  position: absolute;
+ 
+  margin: 60px;
+  border: 1px solid black;
+ width: 100px;
+ padding: 5px;
+ text-align: center;
+ background-color: black;
+}
+
+.shopall a{
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.shopall:hover{
+  background-color: rgb(29, 26, 21);
+}
+
+.bestsellers{
+  position: absolute;
+  top: 190px;
+  margin: 60px;
+  border: 1px solid black;
+ width: 135px;
+ padding: 5px;
+ text-align: center;
+ background-color: black;
+}
+
+.bestsellers a{
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.bestsellers:hover{
+  background-color: rgb(29, 26, 21);
+}
+
+.socks1{
+  position: relative;
+  left: 240px;
+  width: 220px;
+  height: 50vh;
+}
+
+.socks2{
+  position: relative;
+  left: 240px;
+  width: 220px;
+  height: 50vh;
+}
+
+.socks3{
+  position: relative;
+  left: 240px;
+  width: 220px;
+  height: 50vh;
+}
+
+.undies{
+  position: relative;
+  width: 220px;
+  left: 240px;
+  height: 50vh;
+}
+
+.slippers1{
+  position: absolute;
+  font-size: 13px;
+  top: 310px;
+ left: 270px;
+}
+
+.colors1{
+  position: absolute;
+  top: 370px;
+  font-size: 12px;
+  left: 270px;
+}
+
+.slippers2{
+  position: absolute;
+  font-size: 13px;
+  top: 310px;
+ left: 510px;
+}
+
+.colors2{
+  position: absolute;
+  top: 360px;
+  left:510px ;
+  font-size: 12px;
+}
+
+.slippers3{
+  position: absolute;
+  font-size: 13px;
+  top: 310px;
+ left: 750px;
+}
+
+.colors3{
+  position: absolute;
+  bottom: 30px;
+  font-size: 12px;
+  top: 420px;
+left: 750px;
+}
+
+.slippers4{
+  position: absolute;
+  font-size: 13px;
+  top: 310px;
+ left: 998px;
+}
+
+.colors4{
+  position: absolute;
+  top: 365px;
+  left: 998px;
+  font-size: 12px;
+}
+
+.section4{
+  position: relative;
+ 
+  display: flex;
+}
+
+.mens{
+  position: absolute;
+  display: flex;
+ 
+  top: 100px;
+  margin: 50px;
+  left: 10px;
+  font-size: 13px;
+  font-weight: bolder;
+}
+
+.arrivals3{
+  position: absolute;
+  top: 140px;
+  left: 30px;
+  margin: 30px;
+  font-size: 25px;
+}
+
+.shopall3{
+  top: 150px;
+  position: absolute;
+ 
+  margin: 60px;
+  border: 1px solid black;
+ width: 100px;
+ padding: 5px;
+ text-align: center;
+ background-color: black;
+}
+
+.shopall3 a{
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.shopall3:hover{
+  background-color: rgb(29, 26, 21);
+}
+
+.bestsellers3{
+  position: absolute;
+  top: 190px;
+  margin: 60px;
+  border: 1px solid black;
+ width: 135px;
+ padding: 5px;
+ text-align: center;
+ background-color: black;
+}
+
+.bestsellers3 a{
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.bestsellers3:hover{
+  background-color: rgb(29, 26, 21);
+}
+
+.section4{
+  position: relative;
+  display: flex;
+}
+
+.greenn{
+  position:relative;
+  left: 220px;
+  width: 220px;
+  height: 50vh;
+  
+}
+
+.multi{
+  position: relative;
+  left: 220px;
+  width: 220px;
+  height: 50vh;
+}
+
+.shoe22{
+  position: relative;
+  left: 220px;
+  width: 220px;
+  height: 50vh;
+ 
+}
+
+.pant{
+  position: relative;
+  left: 220px;
+  height: 50vh;
+  width: 220px;
+}
+
+.merino{
+  position: absolute;
+  font-size: 13px;
+  top: 310px;
+ left: 240px;
+}
+
+.available{
+  position: absolute;
+  top: 370px;
+  font-size: 12px;
+  left: 240px;
+}
+
+.wool{
+  position: absolute;
+  font-size: 13px;
+  top: 310px;
+ left: 490px;
+}
+
+.available2{
+  position: absolute;
+  top: 410px;
+  left:490px;
+  font-size: 12px;
+}
+
+.gripper{
+  position: absolute;
+  font-size: 13px;
+  top: 310px;
+ left: 750px;
+}
+
+.available3{
+  position: absolute;
+  bottom: 30px;
+  font-size: 12px;
+  top: 370px;
+left: 750px;
+}
+
+.soft{
+  position: absolute;
+  font-size: 13px;
+  top: 310px;
+ left: 980px;
+}
+
+.available5{
+  position: absolute;
+  bottom: 30px;
+  font-size: 12px;
+  top: 350px;
+left: 980px;
+}
+
+.section5{
+  position: relative;
+  display: flex;
+  margin: 30px;
+}
+
+.png{
+  width: 50%;
+  height: 70vh;
+}
+
+.png2{
+  width: 50%;
+  height: 70vh;
+}
+
+.png3{
+  width: 50%;
+  height: 70vh;
+}
+
+.warm{
+  position: absolute;
+  right: 890px;
+bottom: 170px;
+text-decoration: none;
+color: white;
+font-size: 30px;
+font-weight: bolder;
+}
+
+.warm:hover{
+  text-decoration: underline;
+}
+
+.ready{
+  position: absolute;
+  right: 400px;
+bottom: 170px;
+text-decoration: none;
+color: white;
+font-size: 30px;
+font-weight: bolder;
+}
+
+.ready:hover{
+  text-decoration: underline;
+}
+
+.travels{
+  position: absolute;
+  right: 80px;
+bottom: 170px;
+text-decoration: none;
+color: white;
+font-size: 30px;
+font-weight: bolder;
+text-align: center;
+}
+
+.travels:hover{
+  text-decoration: underline;
+}
+
+.blue{
+  position: relative;
+  background-color: rgb(23, 53, 90);
+  width: 100%;
+  height: 540px;
+}
+
+.giving{
+float: right;
+margin-right: 150px;
+margin-top:  80px;
+width: 550px;
+height: 360px;
+}
+
+.donation{
+  position: absolute;
+  top: 150px;
+  left: 130px;
+  color: white;
+  font-size: 30px;
+}
+
+.everytime{
+  position: absolute;
+  top: 230px;
+  left: 130px;
+  color: white;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.impact{
+  position: absolute;
+  top: 330px;
+  left: 130px;
+  text-decoration: none;
+  color: black;
+  border: 1px solid white;
+width: 110px;
+padding: 10px;
+background-color: white;
+font-size: 14px;
+font-weight: bold;
+}
+
+.multiple{
+  position: relative;
+  display: flex;
+  margin: 50px;
+/* width: 300px; */
+/* height: 100vh; */
+}
+
+.show{
+  position: absolute;
+  top: 80px;
+  left: 55px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.show:hover{
+  text-decoration: underline;
+}
+
+.ankle{
+  position: absolute;
+  top: 80px;
+  left: 260px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.ankle:hover{
+  text-decoration: underline;
+}
+
+.quarter{
+  position: absolute;
+  top: 80px;
+  left: 430px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.quarter:hover{
+  text-decoration: underline;
+}
+
+.halfcalf{
+  position: absolute;
+  top: 80px;
+  left: 620px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.halfcalf:hover{
+  text-decoration: underline;
+}
+
+.calf{
+  position: absolute;
+  top: 80px;
+  left: 830px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.calf:hover{
+  text-decoration: underline;
+}
+
+.knee{
+  position: absolute;
+  top: 80px;
+  left: 990px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.knee:hover{
+  text-decoration: underline;
+}
+
+h2{
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: lighter;
+}
+
+.tees{
+  position: relative;
+  display: flex;
+ margin-left: 150px;
+}
+
+.tees img{
+  height: 70vh;
+  width: 300px;
+}
+
+
+.slide{
+  position: absolute;
+  top: 170px;
+  left: 100px;
+  color: white;
+  text-decoration: none;
+  font-size: 29px;
+  font-weight: bold;
+
+
+}
+
+.slide:hover{
+  text-decoration: underline;
+}
+
+.underwear{
+  position: absolute;
+  top: 190px;
+  left: 400px;
+  color: white;
+  text-decoration: none;
+  font-size: 29px;
+  font-weight: bold;
+
+
+}
+
+.underwear:hover{
+  text-decoration: underline;
+}
+.ttees{
+  position: absolute;
+  top: 190px;
+  left: 770px;
+  color: white;
+  text-decoration: none;
+  font-size: 29px;
+  font-weight: bold;
+
+
+}
+
+.ttees:hover{
+  text-decoration: underline;
+}
+
+.container{
+  position: relative;
+  background-color: rgb(46,67,102);
+  height: 350px;
+  max-width: 100%;
+}
+
+.enter{
+  position: absolute;
+  font-size: 23px;
+  color: white;
+  font-weight: bolder;
+  top: 60px;
+  left: 30%;
+ 
+}
+
+
+
+.email{
+  position: absolute;
+outline: none;
+left: 35%;
+top: 160px;
+border: 1px solid white;
+width: 250px;
+background-color: white;
+height: 40px;
+
+}
+
+ input{
+  border-color: white;
+  outline: none;
+}
+
+.signup{
+  position: absolute;
+  left: 56%;
+  top: 160px;
+  color: white;
+  border: 1px solid black;
+  background-color: black;
+  width: 130px;
+ 
+  padding-top: 15px;
+  height: 28px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.valid{position: absolute;
+  font-size: 13px;
+  color: white;
+  top: 210px;
+  left: 37%;
+
+}
+
+.address{position: absolute;
+  font-size: 12px;
+  color: white;
+  top: 250px;
+  left: 200px;
+
+}
+
+.policy{
+ 
+  color: white;
+  text-decoration: none;
+}
+
+.socials{
+  position: absolute;
+  top: 280px;
+  left: 44%;
+ 
+}
+
+.socials a{
+  padding-left: 20px;
+}
+
+
+.happiness{ 
+  position: absolute;
+   font-family: cubic normal;
+left: 50px;
+
+}
+.sup{
+  font-size: 17px;
+  font-weight: bold;
+  
+}
+
+.teed{
+  position:relative;
+  font-size: 14px;
+  font-weight: lighter;
+top: 20px;
+left: 130px;
+max-width: max-content;
+}
+
+.customer{
+  position: relative;
+  font-size: 13px;
+  top: 35px;
+  left: 50px;
+  font-weight: 400px;
+}
+
+.gethelp{
+  position: relative;
+  font-size: 13px;
+  text-decoration: none;
+  top: 60px;
+  left: 50px;
+  color: white;
+  border: 1 px solid black;
+  background-color: black;
+   width: 110px;
+  padding-top: 7px;
+  height: 25px;
+  text-align: center;
+ 
+}
+
+.gethelp a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.gethelp a {
+  cursor: pointer;
+}
+
+.vertical{
+  position: absolute;
+ left: 600px;
+ bottom: 300px;
+  width: 1px;
+  height: 330px;
+  background-color: black;
+  
+}
+
+.more{
+  position: relative;
+  left: 650px;
+  bottom: 100px;
+  /* max-width: max-content; */
+}
+
+.more a{
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  
+}
+
+.more a:hover{
+  text-decoration: underline;
+  
+}
+
+.shopping{
+  position: relative;
+  left: 730px;
+  bottom: 100px;
+  /* max-width: max-content; */
+ 
+}
+
+.shopping a{
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+ 
+}
+
+.shopping a:hover{
+  text-decoration: underline;
+  
+}
+
+.float{
+  position: relative;
+  display: flex;
+ 
+}
+
+.overflow{
+  position: relative;
+  display: flex;
+  
+  max-width: max-content;
+}
+
+.certified{
+  position: relative;
+  left: 600px;
+  bottom: 110px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.certi{
+  position: absolute;
+left: 630px;
+top: 420px;
+width: 80px;
+height: 80px;
+}
+
+.learn{
+  font-weight: lighter;
+  color: black;
+}
+
+.hr{position: relative;
+  width: 940px;
+  left: 125px;
+ 
+}
+
+.terms{
+  font-size: 11px;
+ padding-left: 110px;
+}
+
+.terms a{
+  color: black;
+  text-decoration: none;
+  padding-left: 15px;
+}
+
+.terms a:hover{
+  text-decoration: underline;
+}
+
+.nigeria{ position: relative;
+  width: 30px;
+  bottom: 80px;
+  left: 110px;
+}
+
+.nija{
+  position: relative;
+  left: 170px;
+  bottom: 190px ;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+.hr2{position: relative;
+  width: 940px;
+  left: 125px;
+ bottom: 170px;
+ 
+}
+
+.law{position: relative;
+  font-size: 11px;
+  left: 130px;
+ bottom: 150px;
+}
+.law a{
+  /* text-decoration: none; */
+  color: black;
+
+}
+
+
+.toggle{position: sticky;
+  width: 35px;
+bottom: 0;
+left: 50px;
+max-height: 100px;
+
+}
+
